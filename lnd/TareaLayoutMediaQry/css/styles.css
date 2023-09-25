@@ -1,0 +1,297 @@
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("../img/texture.webp");
+    background-size: cover;
+    font-family: 'roboto-title';
+    padding: 1vh 18vw 2vh 15vw;
+    color: #E63840;
+}
+
+header div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+header p {
+    font-size: 1.4rem;
+    margin-bottom: 3vh;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh;
+    text-align: center;
+}
+
+aside {
+    background-color: #D4D9D9;
+}
+
+article {
+    background-color: rgba(231, 56, 63, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    display: flex;
+}
+
+article>div {
+    margin: 2vw;
+    text-align: justify;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    font-size: 3vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.4vh;
+}
+
+nav a {
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+
+nav a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+form input, textarea{
+    margin-bottom: 0.5vh;
+    width: 20vw;
+}
+
+form textarea{
+    height: 12vh;
+    resize: none;
+}
+
+footer {
+    padding: 3vh 0 3vh 0;
+    color: black;
+    background-image: url("../img/texture.webp");
+    background-size: cover;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer li {
+    list-style: none;
+    margin: 0.4vh 0 0.4vh 0;
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-nav {
+    width: 6vw;
+    margin: 1vw;
+}
+
+.dona {
+    padding: .6vh;
+    background-color: #E63840;
+    color: white;
+    transition: ease-in-out color .15s;
+}
+
+.dona:hover {
+    background-color: white;
+    color: #E63840;
+}
+
+#footer-nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#rectangulo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20vh 20vw 20vh 20vw;
+    width: 40vw;
+    height: 40vh;
+    background-color: #002573;
+    border: solid white .5vw;
+    color: #fff;
+    text-align: justify;
+    padding: 1vw;
+}
+
+#somosOA {
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#somosOA img {
+    margin-top: 2vh;
+    width:100%;
+}
+
+#mainFondo {
+    background-image: url('../img/mapa.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit-btn{
+    margin-top: 1vh;
+    width: 4vw;
+}
+
+#donaASIDE {
+    margin-top: 4vh;
+    font-size: 2rem;
+}
+
+@font-face {
+    font-family: 'roboto-title';
+    src: url('../fuentes/Roboto-Bold.ttf');
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a{
+        margin-bottom: 1.2vh;
+    }
+
+    form {
+        width: 100%;
+        padding: 1vh 5vw 1vh 4vw;
+    }
+
+    form input, textarea{
+        width: 100%;
+    }
+    
+    form textarea{
+        height: 12vh;
+        resize: none;
+    }
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header div{
+        padding-right: 0%;
+    }
+
+    header h2{
+        display: none;
+    }
+    
+    header h1{
+        -ms-flex-order: 2;
+        margin: 1vh 0 1vh 0;
+    }
+
+    header .logo-nav{
+        width: 15%;
+        margin: 2vh 0 0 0;
+    }
+
+    section{
+        display: none;
+    }
+
+    aside{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    article{
+        flex-direction: column;
+    }
+    
+    footer .logo-nav{
+        display: none;
+    }
+    
+    #rectangulo {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 2vh 2vw 2vh 2vw;
+        width: 80vw;
+        height: auto;
+        background-color: #fff;
+        border: solid #002573 .5vw;
+        color: #002573;
+        text-align: justify;
+        padding: 1vh 2vw 1vh 2vw;
+    }
+
+    #submit-btn{
+        width: auto;
+    }
+
+    #footer-nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #somosOA {
+        padding: 2vh;
+    }
+    
+    
+}

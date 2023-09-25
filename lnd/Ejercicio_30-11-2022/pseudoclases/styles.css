@@ -1,0 +1,28 @@
+ol>li {
+    padding: 2px;
+}
+
+ol>li:nth-child(2n) {
+    color: darkblue;
+}
+
+ol>li:nth-child(2n+1) {
+    color: darkorange;
+}
+
+ol>li:last-child {
+    color: purple;
+}
+
+ol>li:first-child {
+    color: red;
+}
+
+ol>li:nth-child(10) {
+    color: green;
+}
+
+ol>li:hover {
+    background-color: black;
+    color: white;
+}

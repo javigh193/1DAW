@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+  <pelicula>
+    <titulo idioma="es">Avengers: Endgame</titulo>
+    <director>Anthony Russo, Joe Russo</director>
+    <año>2019</año>
+    <género>Acción</género>
+    <precio>9.99</precio>
+    <duración>181</duración>
+  </pelicula>
+  <pelicula>
+    <titulo idioma="en">Inception</titulo>
+    <director>Christopher Nolan</director>
+    <año>2010</año>
+    <género>Ciencia ficción</género>
+    <precio>12.99</precio>
+    <duración>148</duración>
+  </pelicula>
+  <pelicula>
+    <titulo idioma="fr">Le fabuleux destin d'Amélie Poulain</titulo>
+    <director>Jean-Pierre Jeunet</director>
+    <año>2001</año>
+    <género>Comedia romántica</género>
+    <precio>14.99</precio>
+    <duración>122</duración>
+  </pelicula>
+  <pelicula>
+    <titulo idioma="de">Das Leben der Anderen</titulo>
+    <director>Jean-Pierre Jeunet</director>
+    <!-- <director>Florian Henckel von Donnersmarck</director> -->
+    <año>2006</año>
+    <género>Drama</género>
+    <precio>19.99</precio>
+    <duración>137</duración>
+  </pelicula>
+</libreria>

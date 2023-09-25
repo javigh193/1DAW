@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"></meta>
+        <meta name="description" content="Ejercicio HTML - Crea un formulario"></meta>
+        <title>Notificar incidencia</title>
+    </head>
+    <body>
+        <form action="procesar-incidencia.php" method="post" style="width: 400px">
+            <fieldset>
+                <legend>Datos de la incidencia:</legend>
+                <label for="usuario">Usuario:</label>
+                <br>
+                <input type="text" name="usuario">
+                <br><br>
+                <label for="departamento">Departamento:</label>
+                <br>
+                <select name="departamento">
+                    <option>Informática</option>
+                    <option>Márketing</option>
+                    <option>Ventas</option>
+                </select>
+                <br><br>
+                <label for="descripcion">Descripción:</label>
+                <br>
+                <textarea name="descripcion" cols="40" rows="3" placeholder="Describa la incidencia..."></textarea>
+                <br><br>
+                <label for="contraseña">Contraseña:</label>
+                <br>
+                <input type="password" name="contraseña">
+            </fieldset>
+            <fieldset>
+                <legend>Botones de envío y reset:</legend>
+                <form>
+                    <button type="reset">Resetear</button>
+                    <button type="submit">Enviar</button>
+                </form>
+            </fieldset>
+         </form>
+    </body>
+</html>

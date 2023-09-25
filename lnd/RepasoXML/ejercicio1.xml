@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concesionario>
+    <coche>
+        <marca>Opel</marca>
+        <modelo>Corsa</modelo>
+        <motor>40CV</motor>
+        <matricula>7777ABC</matricula>
+        <kilometros>0</kilometros>
+        <precio_original>50000</precio_original>
+        <precio_oferta>44000</precio_oferta>
+        <extras>Caja de cambios automática</extras>
+        <fotos/>
+    </coche>
+    <coche>
+        <marca>Seat</marca>
+        <modelo>Córdoba</modelo>
+        <motor>90CV</motor>
+        <matricula>5656KJH</matricula>
+        <kilometros>30000</kilometros>
+        <precio_original>25000</precio_original>
+        <precio_oferta>19000</precio_oferta>
+        <extras/>
+        <fotos/>
+    </coche>
+    <coche>
+        <marca>Seat</marca>
+        <modelo>León</modelo>
+        <motor>130CV</motor>
+        <matricula>1234ABC</matricula>
+        <kilometros>0</kilometros>
+        <precio_original>32500</precio_original>
+        <precio_oferta>30000</precio_oferta>
+        <extras>Llantas customizadas</extras>
+        <fotos/>
+    </coche>
+</concesionario>

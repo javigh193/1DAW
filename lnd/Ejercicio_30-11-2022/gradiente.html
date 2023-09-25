@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #noticia {
+            background: linear-gradient(gray 10%, turquoise);
+            width: 300px;
+            padding: 2vw;
+        }
+
+        h2~p {
+            color: darkred;
+        }
+
+        h2+p {
+            color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="noticia">
+        <p>este párrafo es anterior a h2</p>
+        <h2>Titular de la noticia</h2>
+        <p>este párrafo es adyacente y además es hermano
+        </p>
+        <p>este párrafo no es adyacente, pero sí es hermano</p>
+    </div>
+</body>
+
+</html>

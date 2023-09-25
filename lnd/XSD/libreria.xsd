@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="libreria">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="codigo" type="xs:integer"/>
+            <xs:element name="direccion" type="xs:string"/>
+            <xs:element name="telefono" type="xs:integer"/>
+            <xs:element name="propietario">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nombre" type="xs:string"/>
+                        <xs:element name="telefono" type="xs:integer"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="libro">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="titulo" type="xs:string"/>
+                        <xs:element name="autor" type="xs:string"/>
+                        <xs:element name="formato" type="xs:string"/>
+                        <xs:element name="publicacion" type="xs:integer"/>
+                        <xs:element name="precio" type="xs:decimal"/>
+                    </xs:sequence>
+                </xs:complexType>   
+            </xs:element>         
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema> 

@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+}
+
+#div1 {
+    background-color: green;
+    width: 30vw;
+    height: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2%;
+    padding: 1vw;
+}
+
+h1 {
+    font-size: 6rem;
+    color: rgba(255, 0, 0, 0.4);
+}

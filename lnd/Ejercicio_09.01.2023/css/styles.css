@@ -1,0 +1,40 @@
+.contenedor {
+    background: grey;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    background: black;
+    height: 58px;
+    width: 58px;
+    margin: 18px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.item-1 {
+    background: blue;
+    flex-grow: 1;
+}
+
+.item-2 {
+    background: purple;
+    flex-grow: 2;
+}
+
+.item-3 {
+    background: red;
+    align-self: flex-start;
+    flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 2vh;
+}

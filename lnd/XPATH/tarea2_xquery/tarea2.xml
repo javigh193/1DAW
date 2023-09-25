@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videojuego>
+  <titulo>Valorant</titulo>
+  <genero>Juego de disparos en primera persona</genero>
+  <plataforma>PC</plataforma>
+  <desarrollador>Riot Games</desarrollador>
+  <fechaLanzamiento>2 de junio de 2020</fechaLanzamiento>
+  <agentes>
+    <agente>
+      <nombre>Jett</nombre>
+      <habilidadPrimaria tipo="Daño" duracion="4">Cuchillo Arrojadizo</habilidadPrimaria>
+      <habilidadSecundaria tipo="Curación" duracion="0">Vientos Ligeros</habilidadSecundaria>
+      <habilidadUltimate tipo="Daño" duracion="6">Tormenta de Cuchillos</habilidadUltimate>
+    </agente>
+    <agente>
+      <nombre>Brimstone</nombre>
+      <habilidadPrimaria tipo="Daño" duracion="6">Granada Incendiaria</habilidadPrimaria>
+      <habilidadSecundaria tipo="Curación" duracion="0">Estímulo de Combate</habilidadSecundaria>
+      <habilidadUltimate tipo="Daño" duracion="4">Incendiario Orbital</habilidadUltimate>
+    </agente>
+    <agente>
+      <nombre>Viper</nombre>
+      <habilidadPrimaria tipo="Daño" duracion="8">Nube Venenosa</habilidadPrimaria>
+      <habilidadSecundaria tipo="Daño" duracion="6">Pantalla Tóxica</habilidadSecundaria>
+      <habilidadUltimate tipo="Curación" duracion="12">Recolección Táctica</habilidadUltimate>
+    </agente>
+    <agente>
+      <nombre>Phoenix</nombre>
+      <habilidadPrimaria tipo="Daño" duracion="4">Bola Curva de Fuego</habilidadPrimaria>
+      <habilidadSecundaria tipo="Curación" duracion="0">Escudo Curativo</habilidadSecundaria>
+      <habilidadUltimate tipo="Daño" duracion="6">Explosión Cósmica</habilidadUltimate>
+    </agente>
+    <agente>
+      <nombre>Sage</nombre>
+      <habilidadPrimaria tipo="Curación" duracion="0">Orbe de Curación</habilidadPrimaria>
+      <habilidadSecundaria tipo="Daño" duracion="4">Muro de Hielo</habilidadSecundaria>
+      <habilidadUltimate tipo="Curación" duracion="5">Resurrección</habilidadUltimate>
+    </agente>
+    <agente>
+      <nombre>Cypher</nombre>
+      <habilidadPrimaria tipo="Daño" duracion="4">Trampa Cibernética</habilidadPrimaria>
+      <habilidadSecundaria tipo="Daño" duracion="7">Cámara Espía</habilidadSecundaria>
+      <habilidadUltimate tipo="Curación" duracion="0">Ataque de Neurona</habilidadUltimate>
+    </agente>
+  </agentes>
+</videojuego>

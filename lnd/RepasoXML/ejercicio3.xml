@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE guachinche[
+<!ELEMENT carnes (cabra, cochino)>
+<!ELEMENT cabra (precio, guarnicion)>
+<!ELEMENT cochino (precio, guarnicion)>
+<!ELEMENT picoteo (garbanzas, queso)>
+<!ELEMENT garbanzas (precio)>
+<!ELEMENT queso (precio)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT guarnicion (#PCDATA)>
+]>
+<guachinche>
+    <carnes>
+        <cabra>
+            <precio>6</precio>
+            <guarnicion>papas fritas</guarnicion>
+        </cabra>
+        <cochino>
+            <precio>7</precio>
+            <guarnicion>papas fritas</guarnicion>
+        </cochino>
+    </carnes>
+    <picoteo>
+        <garbanzas>
+            <precio>5</precio>
+        </garbanzas>
+        <queso>
+            <precio>6</precio>
+        </queso>
+    </picoteo>
+ </guachinche>

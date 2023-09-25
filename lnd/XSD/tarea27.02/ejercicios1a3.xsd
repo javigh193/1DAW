@@ -1,0 +1,29 @@
+<!--Ejercicio1-->
+<xs:element name="edad">
+    <xs:simpleType>
+    <xs:restriction base="xs:integer">
+        <xs:minInclusive value="12"/>
+        <xs:maxInclusive value="18"/>
+    </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+<!--Ejercicio2-->
+<!-- <xs:element name="semana">
+    <xs:complexType>
+        <xs:element name="dia" type="xs:string" 
+        minOccurs="7" maxOccurs="7"/>
+    </xs:complexType>
+</xs:element> -->
+<xs:simpleType name="dia_semana" base="xs:string" derivedBy="list">
+    <dia_semana>Lunes Martes Miercoles Jueves Viernes Sabado Domingo<dia_semana>
+</xs:simpleType>
+<!--Ejercicio3-->
+<xs:element name="alumno">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="apellidos" type="xs:string"/>
+            <xs:element name="web_personal" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>

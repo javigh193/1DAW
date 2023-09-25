@@ -1,0 +1,116 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 100;
+}
+
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
+h1 {
+	padding-top: 40px;
+	padding-left: 112px;
+	color: black;
+	font-size: 30px;
+	font-style: italic;
+	font-family: Times;
+}
+
+h2 {
+	padding-top: 0px;
+	padding-left: 112px;
+	color: #b3b79b;
+}
+
+h3 {
+	color: #8D926A;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+#caja_nav ul {
+	padding: 16px 0 2px;
+	margin-left: 160px;
+	list-style-type: none;
+	color: #bb6633;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+	padding: .2em 1em;
+}
+
+li a:hover {
+	color: #111111;
+}
+
+#principal {
+	height: 399px;
+	width: 741px;
+	background-image: url('imagenes/fondo.jpg');
+}
+
+#barraenlace {
+	height: 43px;
+	width: 741px;
+	background-image: url('imagenes/barra_enlace.jpg');
+}
+
+#top_contenido {
+	height: 135px;
+	width: 741px;
+	background-image: url('imagenes/top.jpg');
+}
+
+#top_contenido blockquote {
+	margin-left: 23%;
+	padding-top: 40px;
+	margin-right: 43%;
+}
+
+#principal_contenido {
+	width: 741px;
+	background-image: url('imagenes/body_tile.jpg');
+}
+
+#principal_contenido>* {
+	margin-left: 15%;
+	margin-right: 40%;
+}
+
+#pie {
+	height: 70px;
+	width: 590px;
+	background-color: #8D926A;
+	padding-top: 10px;
+	border-radius: 15px;
+	text-align: center;
+	color: white;
+}
+
+blockquote {
+	font-style: italic;
+	font-size: small;
+}
+
+#caja_nav a:hover {
+	background-color: white;
+}

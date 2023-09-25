@@ -1,0 +1,30 @@
+#red {
+    background-color: red;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#blue {
+    background-color: blue;
+    grid-area: 2 / 1 / 2 / 2;
+}
+
+#green {
+    background-color: green;
+    grid-area: 1 / 2 / 2 / 2;
+}
+
+#yellow {
+    background-color: yellow;
+    grid-area: 2 / 2 / 2 / 2;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+}

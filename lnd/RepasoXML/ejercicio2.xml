@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE librerias[
+<!ELEMENT librerias (libreria+)>
+<!ELEMENT libreria (libro+)>
+<!ELEMENT libro (isbn, titulo, nivel, autores, editorial, fecha_publicacion, pagina_web, precio)>
+<!ELEMENT autores (autor+)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT nivel (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT fecha_publicacion (#PCDATA)>
+<!ELEMENT pagina_web Empty>
+<!ELEMENT precio (#PCDATA)>
+]>
+<librerias>
+    <libreria codigo="1234A">
+        <libro>
+            <isbn>12345678abc</isbn>
+            <titulo>Harry Potter</titulo>
+            <nivel>básico</nivel>
+            <autores>
+                <autor>Peter Pan</autor>
+                <autor>Blancanieves</autor>
+            </autores>
+            <editorial>Alfaguara</editorial>
+            <fecha_publicacion>01.01.2000</fecha_publicacion>
+            <pagina_web/>
+            <precio>20</precio>
+        </libro>
+        <libro>
+            <isbn>12345679lpk</isbn>
+            <titulo>American Psycho</titulo>
+            <nivel>avanzado</nivel>
+            <autores>
+                <autor>Joe Biden</autor>
+                <autor>Donald Trump</autor>
+            </autores>
+            <editorial>Planeta</editorial>
+            <fecha_publicacion>01.01.2021</fecha_publicacion>
+            <pagina_web/>
+            <precio>100</precio>
+        </libro>
+        <libro>
+            <isbn>12332678zzz</isbn>
+            <titulo>Aprende XML con Teo</titulo>
+            <nivel>básico</nivel>
+            <autores>
+                <autor>García Márquez</autor>
+                <autor>Laura Gallego</autor>
+            </autores>
+            <editorial>Alfaguara</editorial>
+            <fecha_publicacion>01.03.2006</fecha_publicacion>
+            <pagina_web/>
+            <precio>16</precio>
+        </libro>
+    </libreria>
+    <libreria codigo="1334C">
+        <libro>
+            <isbn>12345677ggc</isbn>
+            <titulo>Harry Potter 4</titulo>
+            <nivel>básico</nivel>
+            <autores>
+                <autor>Peter Pan</autor>
+                <autor>Blancanieves</autor>
+            </autores>
+            <editorial>Alfaguara</editorial>
+            <fecha_publicacion>01.01.2009</fecha_publicacion>
+            <pagina_web/>
+            <precio>20</precio>
+        </libro>
+        <libro>
+            <isbn>12345678iuy</isbn>
+            <titulo>Harry Potter 3</titulo>
+            <nivel>básico</nivel>
+            <autores>
+                <autor>Peter Pan</autor>
+                <autor>Blancanieves</autor>
+            </autores>
+            <editorial>Alfaguara</editorial>
+            <fecha_publicacion>01.01.2005</fecha_publicacion>
+            <pagina_web/>
+            <precio>20</precio>
+        </libro>
+        <libro>
+            <isbn>12625678abc</isbn>
+            <titulo>Harry Potter 2</titulo>
+            <nivel>básico</nivel>
+            <autores>
+                <autor>Peter Pan</autor>
+                <autor>Blancanieves</autor>
+            </autores>
+            <editorial>Alfaguara</editorial>
+            <fecha_publicacion>01.01.2002</fecha_publicacion>
+            <pagina_web/>
+            <precio>20</precio>
+        </libro>
+    </libreria>    
+</librerias>

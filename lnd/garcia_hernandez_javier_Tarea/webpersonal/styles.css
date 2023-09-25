@@ -1,0 +1,18 @@
+header {
+    text-align: center;
+}
+
+h1 {
+    background-color: lightblue;
+}
+
+body {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+body {
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#div1 {
+    text-align: center;
+    background-color: lightgreen;
+    border: solid 0.5vw lightgray;
+    width: 20%;
+    padding: 2vw;
+}
+
+h1 {
+    font-family: 'titulo';
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: 'titulo';
+    src: url('RobotoMono-Bold.ttf');
+}

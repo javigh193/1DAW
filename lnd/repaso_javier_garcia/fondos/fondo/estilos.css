@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+}
+
+#div1 {
+    background: linear-gradient(to right, green, turquoise);
+    border: solid 0.5vw lightgray;
+    width: 30vw;
+    height: 15vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    padding: 0;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#bulb {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+#cloud {
+    position: absolute;
+    bottom: -80%;
+    left: 20%;
+    z-index: 0;
+}
+
+#tower {
+    position: absolute;
+    z-index: 0;
+    bottom: 45%;
+    left: 78%;
+}
+
+h1 {
+    font-size: 4rem;
+    z-index: 2;
+}

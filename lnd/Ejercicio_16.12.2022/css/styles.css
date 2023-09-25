@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+    padding: 1vh;
+    margin-top: 1vh;
+}
+
+.flex-container {
+    max-width: 960px;
+    width: 90%;
+    list-style-type: none;
+    margin: 20px auto;
+    padding: 0;
+    background-color: midnightblue;
+
+    /*Flexbox setup*/
+    display: flex;
+}
+
+.item {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    font-size: 20px;
+    background-color: steelblue;
+    color: #fff;
+    text-align: center;
+    margin: 5px 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: midnightblue;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 66%;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#fc2 {
+    flex-wrap: wrap;
+}
+
+#fc3 {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#fc4 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#fc5 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#fc5 #item1 {
+    order: 3;
+}
+
+#fc5 #item2 {
+    order: 2;
+}
+
+#fc5 #item3 {
+    order: 1;
+}
+
+#fc5 #item4 {
+    order: 4;
+}
+
+#fc5 #item5 {
+    order: 5;
+}
+
+#fc6 {
+    flex-flow: column;
+    align-items: center;
+}
+
+#datos {
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}

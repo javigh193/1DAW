@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0.6rem;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e9e9e9;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    font-family: 'gotica';
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    background-color: #77053a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.4vh;
+}
+
+nav a:hover {
+    background-color: #b6105b;
+}
+
+aside {
+    max-width: 100%;
+    background-color: #457022;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vh;
+}
+
+#com-aside .widget {
+    border-radius: 2vw;
+    box-shadow: 0.4vh 0.4vh 0.4vh darkblue;
+    width: auto;
+    height: auto;
+}
+
+.text-s50 {
+    text-shadow: 0.2vw 0.2vw darkslategray;
+}
+
+#widget1 {
+    background-color: rgb(152, 193, 221, 0.5)
+}
+
+#widget2 {
+    margin-top: 20px;
+}
+
+.contenedor {
+    background-color: #ccc;
+}
+
+.main {
+    background-color: #fff;
+}
+
+.main div {
+    margin-bottom: 20px;
+    border-bottom: solid #000 1px;
+}
+
+.main div:last-child {
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+.widget {
+    width: 150px;
+    height: 10px;
+    background-color: rgb(152, 193, 221);
+}
+
+.widget img {
+    max-width: 100%;
+}
+
+.logo {
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+}
+
+@font-face {
+    font-family: 'gotica';
+    src: url(../font/highland-gothic/HighlandGothicFLF-Bold.ttf);
+}
+
+@media screen and (max-width: 1800px) {
+    /*como uso los mismos estilos que para pantallas de mayor ancho, no incluyo ningún estilo específico
+si pusiese aquí los estilos, se perderían para pantallas mayores
+*/
+}
+
+@media screen and (max-width: 768px) {
+
+    nav,
+    h2 {
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 3.6vw;
+    }
+
+    .logo {
+        font-size: 6vw;
+    }
+
+    footer {
+        font-size: 2vw;
+    }
+
+    aside {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .widget {
+        margin-bottom: 20px;
+    }
+
+    .widget:last-child {
+        margin-bottom: 0px;
+    }
+}

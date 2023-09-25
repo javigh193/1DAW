@@ -1,0 +1,5 @@
+Synchronizing state of cups.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install disable cups
+Removed /etc/systemd/system/printer.target.wants/cups.service.
+Removed /etc/systemd/system/multi-user.target.wants/cups.path.
+Removed /etc/systemd/system/sockets.target.wants/cups.socket.

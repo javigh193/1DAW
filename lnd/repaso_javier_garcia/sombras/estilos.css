@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+}
+
+#div1 {
+    background-color: green;
+    box-shadow: -5px -5px 4px 4px tomato;
+    width: 30vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+
+h1 {
+    text-shadow: 10px 6px 2px black;
+}
